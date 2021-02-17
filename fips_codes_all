@@ -1,0 +1,20 @@
+SELECT* FROM `bigquery-public-data.census_utility.fips_codes_all`
+WHERE area_name="California"
+SELECT* FROM `bigquery-public-data.census_utility.fips_codes_all`
+ORDER BY summary_level_name desc
+SELECT* FROM `bigquery-public-data.census_utility.fips_codes_all`
+ORDER BY summary_level_name="state"
+SELECT* FROM `bigquery-public-data.census_utility.fips_codes_all`
+WHERE summary_level_name="state" AND area_name="South Dakota"
+SELECT* FROM `bigquery-public-data.census_utility.fips_codes_all`
+WHERE summary_level_name="state" OR area_name="Puerto Rico"
+SELECT* FROM `bigquery-public-data.census_utility.fips_codes_all`
+WHERE area_name LIKE"N%"
+SELECT* FROM `bigquery-public-data.census_utility.fips_codes_all` 
+WHERE summary_level="050"
+SELECT* FROM `bigquery-public-data.census_utility.fips_codes_all`
+ ORDER BY summary_level_name ASC
+ SELECT* FROM `bigquery-public-data.census_utility.fips_codes_all` 
+WHERE county_fips_code="01021"
+SELECT* FROM `bigquery-public-data.census_utility.fips_codes_all` 
+WHERE state_fips_code like"45"
